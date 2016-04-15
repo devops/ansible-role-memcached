@@ -1,0 +1,5 @@
+---
+# tasks file for RedHat
+
+- name: Install Memcached.
+  yum: name=memcached state=installed

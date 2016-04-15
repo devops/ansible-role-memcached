@@ -1,0 +1,8 @@
+---
+# test file
+
+- name: Install Memcached.
+  hosts: servers
+  roles:
+    - role: ansible-role-memcached
+      memcached_log_enable: True

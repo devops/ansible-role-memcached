@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  author: z
+  description: An Ansible Role that installs Memcached on RedHat/CentOS
+  company:
+  license: license (BSD, MIT)
+  min_ansible_version: 1.6
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  categories:
+  - database
+  - web
+dependencies: []
